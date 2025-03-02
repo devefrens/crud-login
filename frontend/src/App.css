@@ -1,0 +1,114 @@
+/* Para telas menores que 768px (celulares) */
+@media (min-width: 768px) {
+  body {
+    background-color: lightgray;
+    font-size: 14px;
+  }
+}
+
+/* Para telas maiores que 1024px (tablet) */
+@media (max-width: 1024px) {
+  body {
+    background-color: black;
+    font-size: 16px;
+  }
+}
+
+/* 💻 Desktops (largura maior que 1200px) */
+@media (min-width: 1200px) {
+  body {
+    background-color: #007bff;
+    font-size: 20px;
+  }
+}
+
+/* 🖥️ Telas muito grandes (monitores acima de 1920px) */
+@media (min-width: 1920px) {
+  body {
+    background-color: darkblue;
+    color: white;
+    font-size: 22px;
+  }
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  font-size: 18px;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+button {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.container-cad {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} 
+
+.container-log {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} 
+
+.container {
+  /* width: 80%; */
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  color: #007bff;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
