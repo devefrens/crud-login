@@ -33,7 +33,7 @@ Este repositório contém uma aplicação fullstack para gerenciamento de usuár
 ### 🖥️ Configuração do Backend
 1. Clone este repositório:
    ```sh
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/devefrens/crud-login.git
    ```
 2. Acesse a pasta do backend:
    ```sh
